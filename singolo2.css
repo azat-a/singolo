@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+}
+
+body {
+  width: 1020px;
+}
+
+.portfolio {
+  height: 794px;
+  padding-top: 70px;
+  padding-left: 40px;
+  background-color: #2d303a;
+}
+
+.portfolio>h1 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  letter-spacing: -0.2px;
+}
+
+.portfolio>p {
+  margin-top: 27px;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+}
+
+nav {
+  margin-top: 10px;
+  margin-left: 1px;
+}
+
+.tags {
+  display: flex;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.tags a{
+  height: 22px;
+  margin-right: 9px;
+  padding: 3px 7px 4px 6px;
+  border: 1px solid #666d89;
+  border-radius: 5px;
+
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #767e9e;
+}
+
+.tags>li:first-child>a, .tags a:hover{
+  color: #dedede;
+  border-color: #dedede;
+}
+
+.portfolio-grid {
+  display: flex;
+  width: 940px;
+  height: 621px;
+  margin-top: 19px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.portfolio-item {
+  width: 220px;
+  height: 187px;
+  margin-bottom: 20px;
+  /*flex-shrink: 0;*/
+}
+
+.portfolio-bottom {
+  height: 6px;
+  background-color: #323746;
+}
+
+
+.about {
+  height: 660px;
+  padding-top: 68px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #f2f2f2;
+}
+
+.about>h1 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 20px;
+  color: #666d89;
+  letter-spacing: -0.2px;
+}
+
+.about>p {
+  margin-top: 26px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+}
+
+.team-grid {
+  display: flex;
+  width: 940px;
+  margin-top: 44px;
+  justify-content: space-between;
+}
+
+.team-member {
+  width: 300px;
+}
+
+.team-member>h2 {
+  width: 300px;
+  margin-top: 14px;
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  letter-spacing: -0.2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.team-member>p {
+  margin-top: 9px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #767e9e;
+  }
+
+.social-buttons {
+  display: flex;
+  margin-top: 24px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.facebook {
+  background-image: url("assets/social-icons/facebook.png");
+}
+.facebook:hover {
+  background-image: url("assets/social-icons/facebook-dark.png");
+}
+
+.googleplus {
+  background-image: url("assets/social-icons/googleplus.png");
+}
+.googleplus:hover {
+  background-image: url("assets/social-icons/googleplus-dark.png");
+}
+
+.twitter {
+  background-image: url("assets/social-icons/twitter.png");
+}
+.twitter:hover {
+  background-image: url("assets/social-icons/twitter-dark.png");
+}
+
+.linkedin {
+  background-image: url("assets/social-icons/linkedin.png");
+}
+.linkedin:hover {
+  background-image: url("assets/social-icons/linkedin-dark.png");
+}
+
+.about-bottom {
+  height: 6px;
+  background-color: #ffffff;
+}
